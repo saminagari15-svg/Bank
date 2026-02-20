@@ -1,3 +1,31 @@
+#creating class
+class student:
+    name = "aly" 
+#creating object 
+s1 = student()
+print(s1.name)
+
+s2 = student()
+print(s2.name)
+class car:
+    color = "red"
+    brand = "audi"
+car1 = car()
+print (car1.color)
+print (car1.brand)
+class Student:
+    def __init__(self, name, roll_no):
+        self.name = name
+        self.roll_no = roll_no
+
+    def show_info(self):
+        print("Name:", self.name)
+        print("Roll No:", self.roll_no)
+
+# Object
+s1 = Student("Ali", 101)
+s1.show_info()
+
 class industry:
     def __init__(self, name,country,owner):
         self.name=name
